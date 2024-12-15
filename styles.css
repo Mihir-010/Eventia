@@ -1,0 +1,421 @@
+/* General Styles for the container */
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"],
+button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Password Wrapper */
+.password-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.password-wrapper input {
+    width: 100%;
+    padding-right: 40px;
+}
+
+.password-wrapper i {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+/* Button Styles */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Error Message */
+.error {
+    color: red;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Links below the form */
+p {
+    text-align: center;
+    font-size: 14px;
+}
+
+p a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #74ebd5, #acb6e5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #333;
+}
+
+.login-container {
+    background: white;
+    padding: 40px; /* Increased padding for more spacing */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #5A5A5A;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 30px); /* Adjust width to account for padding */
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border 0.3s;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #74ebd5;
+    outline: none;
+}
+
+button {
+    background-color: #5A67D8;
+    color: white;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-top: 10px; /* Add margin for spacing between button and inputs */
+}
+
+button:hover {
+    background-color: #434190;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.links a {
+    color: #5A67D8;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+    width: 100%; /* Make inputs take the full width */
+    padding: 12px; /* Add padding */
+    margin: 10px 0; /* Add margin for spacing */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+input[type="submit"] {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%; /* Make button take full width */
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.forgot-password,
+.new-user {
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    color: #4CAF50; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px; /* Max width of the container */
+    margin: 50px auto; /* Center the container */
+    padding: 20px; /* Padding inside the container */
+    background-color: #fff; /* White background */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+h2 {
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+    width: 100%; /* Full width for inputs */
+    padding: 12px; /* Padding inside inputs */
+    margin: 10px 0; /* Margin for spacing */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding in width calculation */
+    font-size: 16px; /* Consistent font size for input */
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="password"]::placeholder,
+input[type="tel"]::placeholder {
+    font-size: 16px; /* Same font size for placeholder text */
+    color: #aaa; /* Placeholder text color */
+}
+
+input[type="submit"] {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 14px 20px; /* Padding for button */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    width: 100%; /* Full width for button */
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.forgot-password,
+.new-user {
+    text-align: center; /* Center the text */
+    margin-top: 20px; /* Space above the text */
+}
+
+a {
+    color: #4CAF50; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.alert {
+    background-color: #f44336; /* Red background for alert */
+    color: white; /* White text */
+    padding: 15px; /* Padding inside alert */
+    margin: 20px 0; /* Space around alert */
+    border-radius: 5px; /* Rounded corners */
+    text-align: center; /* Center the text in alert */
+}
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.team-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.team-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+    text-align: center;
+}
+
+.team-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
